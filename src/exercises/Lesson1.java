@@ -6,23 +6,20 @@ public class Lesson1 {
         int highScorePosition = calculateHighScorePosition(1500);
         displayHighScorePosition("Alina", highScorePosition);
 
+        highScorePosition = calculateHighScorePosition(1000);
+        displayHighScorePosition("Andrew", highScorePosition);
+
         highScorePosition = calculateHighScorePosition(900);
         displayHighScorePosition("Evgeny", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(500);
+        displayHighScorePosition("Andy", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(400);
         displayHighScorePosition("Tim", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(50);
         displayHighScorePosition("John", highScorePosition);
-
-        highScorePosition = calculateHighScorePosition(1000);
-        displayHighScorePosition("Andrew", highScorePosition);
-
-        highScorePosition = calculateHighScorePosition(500);
-        displayHighScorePosition("Andy", highScorePosition);
-
-        highScorePosition = calculateHighScorePosition(100);
-        displayHighScorePosition("Will", highScorePosition);
     }
 
     public static void displayHighScorePosition(String playerName, int highScorePosition) {
