@@ -3,9 +3,9 @@ package exercises;
 public class PositiveNegativeZero {
     public static void main(String[] args) {
 
+        checkNumber(0);
         checkNumber(3);
         checkNumber(-8);
-        checkNumber(0);
     }
 
     public static void checkNumber(int number) {
