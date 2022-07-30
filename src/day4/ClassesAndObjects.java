@@ -1,4 +1,4 @@
-package Day4;
+package day4;
 
 public class ClassesAndObjects {
     public static void main(String[] args) {

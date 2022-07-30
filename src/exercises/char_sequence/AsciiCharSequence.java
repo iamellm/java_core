@@ -1,6 +1,4 @@
-package exercises.CharSequence;
-
-import java.util.Arrays;
+package exercises.char_sequence;
 
 public class AsciiCharSequence implements CharSequence {
 
