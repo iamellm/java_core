@@ -1,4 +1,4 @@
-package exercises.java_masterclass;
+package exercises.java_masterclass.oop;
 
 public class BankAccount {
 
