@@ -2,8 +2,8 @@ package exercises.java_masterclass.oop.carpet_cost_calculator;
 
 public class Calculator {
 
-    private Floor floor;
-    private Carpet carpet;
+    private final Floor floor;
+    private final Carpet carpet;
 
     public Calculator(Floor floor, Carpet carpet) {
         this.floor = floor;
