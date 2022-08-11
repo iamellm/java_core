@@ -10,5 +10,9 @@ public class Main {
         floor = new Floor(5.8, 4.5);
         calculator = new Calculator(floor, carpet);
         System.out.println("total cost = " + calculator.getTotalCost());
+
+        Object i = Integer.valueOf(42);
+        String s = (String) i;
+        System.out.println(s);
     }
 }
