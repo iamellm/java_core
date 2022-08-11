@@ -41,12 +41,23 @@ class ComplexNumberTest {
         ComplexNumber one = new ComplexNumber(1.0, 1.0);
         ComplexNumber number = new ComplexNumber(2.5, -1.5);
         one.add(1,1);
+        System.out.println("adding to one");
         System.out.println("one.real= " + one.getReal());
         System.out.println("one.imaginary= " + one.getImaginary());
+        System.out.println("subtracting number from one");
         one.subtract(number);
         System.out.println("one.real= " + one.getReal());
         System.out.println("one.imaginary= " + one.getImaginary());
+        System.out.println("subtracting one from number");
         number.subtract(one);
+        System.out.println("number.real= " + number.getReal());
+        System.out.println("number.imaginary= " + number.getImaginary());
+        System.out.println("adding number to one");
+        one.add(number);
+        System.out.println("one.real= " + one.getReal());
+        System.out.println("one.imaginary= " + one.getImaginary());
+        System.out.println("adding one to number");
+        number.add(one);
         System.out.println("number.real= " + number.getReal());
         System.out.println("number.imaginary= " + number.getImaginary());
     }
