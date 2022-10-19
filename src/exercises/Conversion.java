@@ -1,6 +1,6 @@
 package exercises;
 
-public class Converion {
+public class Conversion {
 
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
         if (feet < 0 || inches < 0 || inches > 12) {
@@ -27,14 +27,14 @@ public class Converion {
 
 class ConversionTest {
     public static void main(String[] args) {
-        Converion.calcFeetAndInchesToCentimeters(-10, 5);
-        Converion.calcFeetAndInchesToCentimeters(5, -2);
-        Converion.calcFeetAndInchesToCentimeters(10, 14);
-        Converion.calcFeetAndInchesToCentimeters(5, 12);
-        Converion.calcFeetAndInchesToCentimeters(6,0);
-        Converion.calcFeetAndInchesToCentimeters(0, 1);
-        Converion.calcFeetAndInchesToCentimeters(-10);
-        Converion.calcFeetAndInchesToCentimeters(157);
+        Conversion.calcFeetAndInchesToCentimeters(-10, 5);
+        Conversion.calcFeetAndInchesToCentimeters(5, -2);
+        Conversion.calcFeetAndInchesToCentimeters(10, 14);
+        Conversion.calcFeetAndInchesToCentimeters(5, 12);
+        Conversion.calcFeetAndInchesToCentimeters(6,0);
+        Conversion.calcFeetAndInchesToCentimeters(0, 1);
+        Conversion.calcFeetAndInchesToCentimeters(-10);
+        Conversion.calcFeetAndInchesToCentimeters(157);
 
     }
 }

@@ -1,4 +1,4 @@
-package exercises.ShapesApp;
+package exercises.shapes_app;
 
 import javax.swing.*;
 

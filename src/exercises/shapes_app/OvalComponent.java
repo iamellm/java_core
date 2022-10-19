@@ -1,4 +1,4 @@
-package exercises.ShapesApp;
+package exercises.shapes_app;
 
 import java.awt.Graphics;
 import javax.swing.JComponent;
